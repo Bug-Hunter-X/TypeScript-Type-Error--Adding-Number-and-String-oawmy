@@ -1,0 +1,1 @@
+This repository demonstrates a common TypeScript type error that arises from implicit type coercion. The `calculate` function attempts to add a number and a string, which results in a compilation error in TypeScript because the addition operation isn't defined for mixed number and string types. The solution involves explicit type checking and handling potential errors.
